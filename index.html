@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biblioteca Triple Peaks</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Logotipo de la Biblioteca Triple Peaks"
+            class="nav__logo"
+          />
+          <!-- Se supone que poner enlaces de navegación en una lista es la mejor práctica para escribir el código semántico, ya que permite a los lectores de pantalla hacer una pausa entre cada enlace en lugar de leer todos los enlaces como una oración. -->
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#staff"
+                >Los preferidos de nuestros lectores</a
+              >
+            </li>
+            <li>
+              <a class="nav__link">Eventos</a>
+            </li>
+            <li>
+              <a class="nav__link">Conviértete en miembro</a>
+            </li>
+            <li>
+              <a class="nav__link">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">
+              Bienvenidos a la biblioteca Triple Peaks
+            </h1>
+            <p class="header__description">
+              ¡Nos complace abrir las puertas de nuestra biblioteca a todos! Ven
+              y amplía todos tus conocimientos, o simplemente ven a trabajar o
+              estudiar con nosotros. ¡Este es un lugar genial para cualquiera
+              que necesite un espacio agradable donde concentrarse!
+            </p>
+          </div>
+          <img
+            src="./images/inside_the_library.png"
+            alt="Ilustración 'Dentro de la biblioteca'"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <p class="header__address">Triple Peaks, 200 Success Avenue</p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section id="staff" class="staff">
+          <h2 class="staff__title">
+            Libros preferidos entre nuestros lectores
+          </h2>
+          <p class="staff__subtitle">
+            Recomendaciones basadas en los libros que nuestros lectores aman
+          </p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">El príncipe</h3>
+                <p class="card__text">
+                  El príncipe es un tratado político que examina de manera
+                  directa cómo se obtiene, se conserva y se ejerce el poder. A
+                  través de ejemplos históricos y observaciones prácticas,
+                  Maquiavelo analiza el comportamiento de los gobernantes y las
+                  decisiones necesarias para mantener la estabilidad del Estado.
+                  La obra propone una visión realista del liderazgo, donde la
+                  eficacia y la adaptación a las circunstancias prevalecen sobre
+                  los ideales morales tradicionales, invitando a reflexionar
+                  sobre la naturaleza del poder y la responsabilidad del
+                  gobernante.
+                </p>
+                <p class="card__footer">Nicolás Maquiavelo</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">1984</h3>
+                <p class="card__text">
+                  1984 describe una sociedad totalitaria en la que el Estado
+                  ejerce un control absoluto sobre la población mediante la
+                  vigilancia constante, la censura y la manipulación del
+                  lenguaje y la información. La novela explora la pérdida de la
+                  libertad individual, la anulación del pensamiento crítico y el
+                  uso del miedo como herramienta de dominación. A través de un
+                  ambiente opresivo y asfixiante, Orwell plantea una advertencia
+                  sobre los peligros del autoritarismo y la importancia de
+                  proteger la verdad y la autonomía personal.
+                </p>
+                <p class="card__footer">George Orwell</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">El arte de la guerra</h3>
+                <p class="card__text">
+                  El arte de la guerra es un tratado clásico que reúne
+                  principios estratégicos enfocados en la planificación, el
+                  liderazgo y la toma de decisiones en escenarios de conflicto.
+                  Sun Tzu enfatiza la importancia del conocimiento propio y del
+                  adversario, la disciplina y la adaptación a las circunstancias
+                  cambiantes. La obra promueve la victoria mediante la
+                  inteligencia y la estrategia, evitando el enfrentamiento
+                  innecesario, y sus enseñanzas han sido aplicadas durante
+                  siglos en ámbitos como la política, los negocios y el
+                  desarrollo personal.
+                </p>
+                <p class="card__footer">Sun Tzu</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Aprende a programar</h3>
+                <p class="card__text">
+                  Aprende a programar es una obra introductoria orientada a
+                  quienes desean iniciar su camino en el mundo de la
+                  programación. El libro explica de forma progresiva conceptos
+                  como la lógica, los algoritmos y la resolución estructurada de
+                  problemas, facilitando la comprensión de cómo funcionan los
+                  programas. Con un enfoque práctico y accesible, proporciona
+                  las bases necesarias para desarrollar pensamiento
+                  computacional y continuar aprendiendo tecnologías más
+                  avanzadas en el ámbito del desarrollo de software.
+                </p>
+                <p class="card__footer">Max Wainewright</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
