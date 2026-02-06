@@ -269,7 +269,9 @@
 }
 
 .person_name_tarter {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  position: absolute;
+  top: 79px;
+  left: 159px;
 }
 
 .person__image {
