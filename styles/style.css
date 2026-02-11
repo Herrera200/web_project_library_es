@@ -1,5 +1,6 @@
 .page {
   max-width: 1600px;
+  min-width: 1100px;
   margin: 0 auto;
   font-family: "Arial", "sans-serif";
   font-size: 16px;
@@ -308,6 +309,7 @@
   font-size: 44px;
   font-weight: 500;
   line-height: 52px;
+  text-decoration: bold;
 }
 
 .membership__steps {
@@ -347,6 +349,7 @@
   color: #ffffff;
   font-size: 16px;
   line-height: 20px;
+  padding: 60px 80px;
 }
 
 .footer__columns {
@@ -356,11 +359,12 @@
 }
 
 .footer__column_content_hours {
+  margin-left: 40px;
 }
 
 .footer__column_content_social {
+  margin-left: 40px;
 }
-
 .footer__logo {
   width: 58px;
   height: 80px;
@@ -369,6 +373,7 @@
 .footer__column-heading {
   font-size: 16px;
   line-height: 20px;
+  margin: 0 0 20px;
 }
 
 .footer__list {
@@ -382,6 +387,9 @@
 }
 
 .footer__column-link {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
   color: white;
   text-decoration: none;
 }
@@ -392,5 +400,5 @@
 }
 
 .footer__copyright {
-  margin: 0 0 60px 80px;
+  margin: 100px 0 60px 80px;
 }
